@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solvex_CleanCode_Project", "Solvex_CleanCode_Project\Solvex_CleanCode_Project.csproj", "{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{502E69A7-E7E6-4871-892D-310DD1BB228A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
