@@ -16,7 +16,5 @@ namespace Domain.Entities
         public string Role { get; set; }
 
         public ICollection<Assignment> Assignments { get; set; }
-        public ICollection<Delivery> Deliveries { get; set; }
-        public ICollection<Message> Messages { get; set; }
     }
 }
