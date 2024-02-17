@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "1abIIjZLNrumu9ZzxvvBbZd0MTK9JuJHF7C4HHVrlRrnGbH6aPPVEtxiqVVSPUicykUVmhtihf4MIxBiRJ18KQ==",
+  "dgSpecHash": "GoCjmP3JlsqCLNOfF0mzMrMVMLoR8IhOD0OJLjj3ashxZmnY2bWnsdwlmmMG9sDpz1qVAZVNbxsiDLG6UAcReg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jaime Terrero\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSI\\.nuget\\packages\\enums.net\\4.0.2\\enums.net.4.0.2.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

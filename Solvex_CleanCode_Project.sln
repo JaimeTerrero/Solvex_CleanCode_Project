@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solvex_CleanCode_Project", "Solvex_CleanCode_Project\Solvex_CleanCode_Project.csproj", "{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solvex_CleanCode_Project", "Solvex_CleanCode_Project\Solvex_CleanCode_Project.csproj", "{9FAA19E2-5FE0-4D6C-A431-387D737C72AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{502E69A7-E7E6-4871-892D-310DD1BB228A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtPlatform.Domain", "Domain\VirtPlatform.Domain.csproj", "{502E69A7-E7E6-4871-892D-310DD1BB228A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtPlatform.Infrastructure", "VirtPlatform.Infrastructure\VirtPlatform.Infrastructure.csproj", "{DA749B8F-49BC-4909-A6A1-8C2DED24D71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtPlatform.Application", "VirtPlatform.Application\VirtPlatform.Application.csproj", "{DD81B09A-4FDC-4791-9071-51FC83F82574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{502E69A7-E7E6-4871-892D-310DD1BB228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA749B8F-49BC-4909-A6A1-8C2DED24D71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA749B8F-49BC-4909-A6A1-8C2DED24D71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA749B8F-49BC-4909-A6A1-8C2DED24D71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA749B8F-49BC-4909-A6A1-8C2DED24D71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD81B09A-4FDC-4791-9071-51FC83F82574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD81B09A-4FDC-4791-9071-51FC83F82574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD81B09A-4FDC-4791-9071-51FC83F82574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD81B09A-4FDC-4791-9071-51FC83F82574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
