@@ -11,9 +11,13 @@ namespace VirtPlatform.Infrastructure.Mappings
 {
     public class AutoMapperProfile : Profile
     {
-        public AutoMapperProfile() 
+        public AutoMapperProfile()
         {
             CreateMap<UserDto, User>();
+
+            CreateMap<SignUp, User>();
+
+            CreateMap<LogIn, User>();
         }
     }
 }

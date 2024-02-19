@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Solvex_CleanCode_Project.props" />
+</Project>
