@@ -10,7 +10,7 @@ namespace VirtPlatform.Test
     public class SubjectControllerTest
     {
         [TestMethod]
-        public async Task GetByIdAsync_ShouldReturnSubject_WhenUserExits()
+        public async Task GetByIdAsync_ShouldReturnSubject_WhenSubjectExits()
         {
             // Arrange
             var subject = new Subject
@@ -34,6 +34,7 @@ namespace VirtPlatform.Test
         [TestMethod]
         public async Task AddAsync_ShouldAddSubject_WhenSubjectIsValid()
         {
+            // Arrange
             var subject = new Subject
             {
                 Name = "Programación Orientada a Objetos",
@@ -48,8 +49,10 @@ namespace VirtPlatform.Test
             sjt.Name = subject.Name;
             sjt.UserId = subject.UserId;
 
+            // Act
             var addSubject = await controller.CreateSubject(sjt);
 
+            // Assert
             Assert.IsNotNull(addSubject);
         }
 
