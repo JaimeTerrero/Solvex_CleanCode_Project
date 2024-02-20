@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using VirtPlatform.Application;
 using VirtPlatform.Application.Assignments.Interfaces;
 using VirtPlatform.Application.Assignments.Services;
 using VirtPlatform.Application.Forums.Interfaces;
@@ -12,6 +13,7 @@ using VirtPlatform.Domain.Interfaces.Repositories.Assignments;
 using VirtPlatform.Domain.Interfaces.Repositories.Forums;
 using VirtPlatform.Domain.Interfaces.Repositories.Subjects;
 using VirtPlatform.Domain.Interfaces.Repositories.Users;
+using VirtPlatform.Infrastructure;
 using VirtPlatform.Infrastructure.Context;
 using VirtPlatform.Infrastructure.Repositories.Assignments;
 using VirtPlatform.Infrastructure.Repositories.Forums;
@@ -31,17 +33,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
-
-builder.Services.AddScoped<IAssignmentRepository, AssignmentRepository>();
-builder.Services.AddScoped<IAssignmentService, AssignmentService>();
-
-builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
-builder.Services.AddScoped<ISubjectService, SubjectService>();
-
-builder.Services.AddScoped<IForumRepository, ForumRepository>();
-builder.Services.AddScoped<IForumService, ForumService>();
+// Add services to the container
+builder.Services
+    .AddRepositories()
+    .AddServices();
 
 // For the AutoMapper Configuration
 var mapperAssembly = Assembly.Load("VirtPlatform.Infrastructure");
