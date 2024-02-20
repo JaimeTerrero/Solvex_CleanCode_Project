@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VirtPlatform.Application.Users.DTOs;
+using VirtPlatform.Application.Users.Helpers;
 using VirtPlatform.Application.Users.Interfaces;
 using VirtPlatform.Domain.Interfaces.Repositories.Users;
 using VirtPlatform.Domain.Utils;
@@ -27,7 +28,26 @@ namespace VirtPlatform.Application.Users.Services
         {
             var user = _mapper.Map<User>(userDto);
             user.Password = PasswordHasher.HashPassword(userDto.Password);
+            user.Token = GenerateJWT.GenerateToken(user);
             await _userRepository.AddAsync(user);
+            return user;
+        }
+
+        public async Task<User> Register(SignUp signUp)
+        {
+            var user = _mapper.Map<User>(signUp);
+            user.Password = PasswordHasher.HashPassword(user.Password);
+            user.Token = "";
+            await _userRepository.AddAsync(user);
+            return user;
+        }
+
+        public async Task<User> Authenticate(LogIn logIn)
+        {
+            var user = await _userRepository.GetByEmailAsync(logIn.Email);
+
+            user.Token = GenerateJWT.GenerateToken(user);
+
             return user;
         }
 

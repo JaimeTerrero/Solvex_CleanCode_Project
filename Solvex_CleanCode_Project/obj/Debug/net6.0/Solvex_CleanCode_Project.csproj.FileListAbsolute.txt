@@ -158,3 +158,5 @@ C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\obj\Debug\net6.0\Solvex_CleanCode_Project.pdb
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\obj\Debug\net6.0\Solvex_CleanCode_Project.genruntimeconfig.cache
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\obj\Debug\net6.0\ref\Solvex_CleanCode_Project.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Solvex_CleanCode_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

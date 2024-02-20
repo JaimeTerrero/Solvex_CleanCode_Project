@@ -161,3 +161,5 @@ C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\obj\Deb
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\obj\Debug\net6.0\VirtPlatform.Test.pdb
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\obj\Debug\net6.0\VirtPlatform.Test.genruntimeconfig.cache
 C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\obj\Debug\net6.0\ref\VirtPlatform.Test.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\VirtPlatform.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

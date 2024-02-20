@@ -24,10 +24,18 @@ namespace Solvex_CleanCode_Project.Controllers.Users
             return Ok(user);
         }
 
-        [HttpPost("CreateUser")]
-        public async Task<ActionResult> CreateUser(UserDto userDto)
+        [HttpPost("Register")]
+        public async Task<ActionResult> RegisterUser(SignUp signUp)
         {
-            var user = await _userService.Add(userDto);
+            var user = await _userService.Register(signUp);
+
+            return Ok(user);
+        }
+
+        [HttpPost("Authenticate")]
+        public async Task<ActionResult> AuthenticateUser(LogIn logIn)
+        {
+            var user = await _userService.Authenticate(logIn);
 
             return Ok(user);
         }

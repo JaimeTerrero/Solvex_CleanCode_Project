@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
+using System.Text;
 using VirtPlatform.Application;
 using VirtPlatform.Application.Assignments.Interfaces;
 using VirtPlatform.Application.Assignments.Services;
@@ -37,6 +40,24 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services
     .AddRepositories()
     .AddServices();
+
+// For Token Implementation
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("this is my custom Secret key for authentication")),
+        ValidateAudience = false,
+        ValidateIssuer = false
+    };
+});
 
 // For the AutoMapper Configuration
 var mapperAssembly = Assembly.Load("VirtPlatform.Infrastructure");

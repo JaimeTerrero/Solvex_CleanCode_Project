@@ -10,5 +10,7 @@ namespace VirtPlatform.Application.Users.Interfaces
 {
     public interface IUserService : IService<User, UserDto>
     {
+        Task<User> Register(SignUp signUp);
+        Task<User> Authenticate(LogIn logIn);
     }
 }
