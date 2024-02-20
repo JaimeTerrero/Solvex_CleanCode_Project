@@ -10,3 +10,15 @@ C:\Users\MSI\Desktop\Solvex\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\Vir
 C:\Users\MSI\Desktop\Solvex\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\refint\VirtPlatform.Domain.dll
 C:\Users\MSI\Desktop\Solvex\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.pdb
 C:\Users\MSI\Desktop\Solvex\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\ref\VirtPlatform.Domain.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\bin\Debug\net6.0\VirtPlatform.Domain.deps.json
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\bin\Debug\net6.0\VirtPlatform.Domain.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\bin\Debug\net6.0\VirtPlatform.Domain.pdb
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.AssemblyInfoInputs.cache
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.AssemblyInfo.cs
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\refint\VirtPlatform.Domain.dll
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\VirtPlatform.Domain.pdb
+C:\Users\MSI\Documents\GitHub\Solvex_CleanCode_Project\Domain\obj\Debug\net6.0\ref\VirtPlatform.Domain.dll

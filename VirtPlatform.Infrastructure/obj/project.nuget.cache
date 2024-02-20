@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KCvZa8TgKOkY4ayMWIZMRexEz/wUnezccQrjwg7507qZJwIKJXbZZnIZuE1xG59xxJdl4+cCCjloB8BHZD4meQ==",
+  "dgSpecHash": "o2pMdKI/Wz31IUb/7LvWLwOnoN6VJ/VlDLKLnjRNXOQquqTOGaqAQe/QruEPgULiB+u2EmGJHBYw4DU5009KNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\VirtPlatform.Infrastructure\\VirtPlatform.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\VirtPlatform.Infrastructure\\VirtPlatform.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

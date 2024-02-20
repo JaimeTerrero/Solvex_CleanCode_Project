@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VirtPlatform.Domain.Interfaces.Repositories.Users
 {
-    public interface IUserRepository : RepositoryT<User>
+    public interface IUserRepository : IRepositoryT<User>
     {
         Task<User> GetByEmailAsync(string email);
     }

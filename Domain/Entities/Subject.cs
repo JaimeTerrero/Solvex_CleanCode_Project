@@ -13,5 +13,6 @@ namespace Domain.Entities
         public int UserId { get; set; }
         public User User { get; set; }
         public ICollection<Assignment> Assignments { get; set; }
+        public ICollection<Forum> Forums { get; set; }
     }
 }

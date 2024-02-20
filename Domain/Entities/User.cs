@@ -14,7 +14,9 @@ namespace Domain.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
+        public string? Token {get; set; }
 
         public ICollection<Assignment>? Assignments { get; set; }
+        public ICollection<Forum> Forums { get; set; }
     }
 }

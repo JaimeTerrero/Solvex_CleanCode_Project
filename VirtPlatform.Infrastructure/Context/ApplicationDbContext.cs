@@ -15,9 +15,12 @@ namespace VirtPlatform.Infrastructure.Context
         public DbSet<User> Users { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<Forum> Forums { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            #region Assignment relationship
+
             modelBuilder.Entity<Assignment>()
             .HasOne(a => a.User)
             .WithMany(u => u.Assignments)
@@ -29,6 +32,21 @@ namespace VirtPlatform.Infrastructure.Context
             .WithMany(s => s.Assignments)
             .HasForeignKey(a => a.SubjectId)
             .OnDelete(DeleteBehavior.Restrict);
+
+            #endregion
+
+            modelBuilder.Entity<Forum>()
+            .HasOne(f => f.User)
+            .WithMany(u => u.Forums)
+            .HasForeignKey(f => f.UserId)
+            .OnDelete(DeleteBehavior.Restrict); // Esto especifica ON DELETE NO ACTION
+
+            modelBuilder.Entity<Forum>()
+            .HasOne(f => f.Subject)
+            .WithMany(s => s.Forums)
+            .HasForeignKey(f => f.SubjectId)
+            .OnDelete(DeleteBehavior.Restrict); // Esto especifica ON DELETE NO ACTION
+
         }
     }
 }

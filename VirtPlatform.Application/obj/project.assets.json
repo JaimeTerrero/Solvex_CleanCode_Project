@@ -917,11 +917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\VirtPlatform.Application\\VirtPlatform.Application.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\VirtPlatform.Application\\VirtPlatform.Application.csproj",
       "projectName": "VirtPlatform.Application",
-      "projectPath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\VirtPlatform.Application\\VirtPlatform.Application.csproj",
+      "projectPath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\VirtPlatform.Application\\VirtPlatform.Application.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\VirtPlatform.Application\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\VirtPlatform.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -938,8 +938,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj": {
-              "projectPath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj"
+            "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj": {
+              "projectPath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj"
             }
           }
         }

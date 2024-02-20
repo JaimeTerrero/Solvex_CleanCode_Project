@@ -5,7 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.DTOs;
+using VirtPlatform.Application.Users.DTOs.Assignments;
+using VirtPlatform.Application.Users.DTOs.Forums;
+using VirtPlatform.Application.Users.DTOs.Subjects;
+using VirtPlatform.Application.Users.DTOs.Users;
 
 namespace VirtPlatform.Infrastructure.Mappings
 {
@@ -18,6 +21,12 @@ namespace VirtPlatform.Infrastructure.Mappings
             CreateMap<SignUp, User>();
 
             CreateMap<LogIn, User>();
+
+            CreateMap<AssignmentDto, Assignment>();
+
+            CreateMap<SubjectDto, Subject>();
+
+            CreateMap<ForumDto, Forum>();
         }
     }
 }

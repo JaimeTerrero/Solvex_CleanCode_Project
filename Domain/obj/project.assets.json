@@ -355,11 +355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
       "projectName": "VirtPlatform.Domain",
-      "projectPath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
+      "projectPath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

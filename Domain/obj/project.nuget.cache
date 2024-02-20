@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GoCjmP3JlsqCLNOfF0mzMrMVMLoR8IhOD0OJLjj3ashxZmnY2bWnsdwlmmMG9sDpz1qVAZVNbxsiDLG6UAcReg==",
+  "dgSpecHash": "PB9gRr+7QSNtIM9CL/7bazbbDJ2A96VyFzkVYcEy36ntgHhdCtmh/kokcNY0tM5RvPh1ea25IsqUYESQVtzYXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
+  "projectFilePath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Domain\\VirtPlatform.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\enums.net\\4.0.2\\enums.net.4.0.2.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

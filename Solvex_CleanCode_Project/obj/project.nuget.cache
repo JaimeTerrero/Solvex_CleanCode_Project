@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qq7YvEwudhSbTp8DXCDdOZV1UiV+vLUL+YnqAYKovtqhGBsw4AVKqrpYoZt4gN3kud2yK/S9FB8NH6A6TyWvBA==",
+  "dgSpecHash": "yeVmwbvIvCVvypC/AhcEUqPx+SJGxgyISMKn4BpY4K3Z1eybkwvtHuMCDgITQy3AqV3sjU9PR23/cB+nou8ORw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI\\Desktop\\Solvex\\Solvex_CleanCode_Project\\Solvex_CleanCode_Project\\Solvex_CleanCode_Project.csproj",
+  "projectFilePath": "C:\\Users\\MSI\\Documents\\GitHub\\Solvex_CleanCode_Project\\Solvex_CleanCode_Project\\Solvex_CleanCode_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
