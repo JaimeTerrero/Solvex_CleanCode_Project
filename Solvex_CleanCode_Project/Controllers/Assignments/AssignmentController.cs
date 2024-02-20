@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VirtPlatform.Application.Users.DTOs.Assignments;
-using VirtPlatform.Application.Users.Interfaces.Assignments;
+using VirtPlatform.Application.Assignments.DTOs;
+using VirtPlatform.Application.Assignments.Interfaces;
 
 namespace Solvex_CleanCode_Project.Controllers.Assignments
 {

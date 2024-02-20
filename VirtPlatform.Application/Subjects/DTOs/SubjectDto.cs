@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VirtPlatform.Application.Users.DTOs.Subjects
+namespace VirtPlatform.Application.Subjects.DTOs
 {
     public class SubjectDto
     {

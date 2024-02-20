@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Assignments;
-using VirtPlatform.Application.Users.DTOs.Forums;
-using VirtPlatform.Application.Users.DTOs.Subjects;
-using VirtPlatform.Application.Users.DTOs.Users;
+using VirtPlatform.Application.Assignments.DTOs;
+using VirtPlatform.Application.Forums.DTOs;
+using VirtPlatform.Application.Subjects.DTOs;
+using VirtPlatform.Application.Users.DTOs;
 
 namespace VirtPlatform.Infrastructure.Mappings
 {

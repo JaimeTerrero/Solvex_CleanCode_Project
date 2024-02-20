@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VirtPlatform.Application.Users.DTOs.Assignments
+namespace VirtPlatform.Application.Assignments.DTOs
 {
     public class AssignmentDto
     {

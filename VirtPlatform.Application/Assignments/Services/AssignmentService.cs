@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Assignments;
-using VirtPlatform.Application.Users.Interfaces.Assignments;
+using VirtPlatform.Application.Assignments.DTOs;
+using VirtPlatform.Application.Assignments.Interfaces;
 using VirtPlatform.Domain.Interfaces.Repositories.Assignments;
 
-namespace VirtPlatform.Application.Users.Services.Assignments
+namespace VirtPlatform.Application.Assignments.Services
 {
     public class AssignmentService : IAssignmentService
     {

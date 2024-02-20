@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Forums;
-using VirtPlatform.Application.Users.Interfaces.Forums;
+using VirtPlatform.Application.Forums.DTOs;
+using VirtPlatform.Application.Forums.Interfaces;
 using VirtPlatform.Domain.Interfaces.Repositories.Forums;
 
-namespace VirtPlatform.Application.Users.Services.Forums
+namespace VirtPlatform.Application.Forums.Services
 {
     public class ForumService : IForumService
     {

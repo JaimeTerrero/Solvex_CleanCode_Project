@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VirtPlatform.Application.Users.DTOs.Forums;
-using VirtPlatform.Application.Users.Interfaces.Forums;
+using VirtPlatform.Application.Forums.DTOs;
+using VirtPlatform.Application.Forums.Interfaces;
 
 namespace Solvex_CleanCode_Project.Controllers.Forums
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VirtPlatform.Application.Users.DTOs.Users
+namespace VirtPlatform.Application.Users.DTOs
 {
     public class SignUp
     {

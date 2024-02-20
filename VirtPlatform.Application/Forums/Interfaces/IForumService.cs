@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Forums;
+using VirtPlatform.Application.Forums.DTOs;
 
-namespace VirtPlatform.Application.Users.Interfaces.Forums
+namespace VirtPlatform.Application.Forums.Interfaces
 {
     public interface IForumService : IService<Forum, ForumDto>
     {

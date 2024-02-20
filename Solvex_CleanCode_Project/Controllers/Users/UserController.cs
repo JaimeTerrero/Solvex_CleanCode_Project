@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VirtPlatform.Application.Users.DTOs.Users;
-using VirtPlatform.Application.Users.Interfaces.Users;
+using VirtPlatform.Application.Users.DTOs;
+using VirtPlatform.Application.Users.Interfaces;
 using VirtPlatform.Application.Users.Services;
 using VirtPlatform.Infrastructure.Repositories.Users;
 

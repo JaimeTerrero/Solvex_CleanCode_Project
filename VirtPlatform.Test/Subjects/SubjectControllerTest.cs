@@ -1,8 +1,8 @@
 using Domain.Entities;
 using Moq;
 using Solvex_CleanCode_Project.Controllers.Subjects;
-using VirtPlatform.Application.Users.DTOs.Subjects;
-using VirtPlatform.Application.Users.Interfaces.Subjects;
+using VirtPlatform.Application.Subjects.DTOs;
+using VirtPlatform.Application.Subjects.Interfaces;
 
 namespace VirtPlatform.Test
 {

@@ -5,12 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Assignments;
-using VirtPlatform.Application.Users.DTOs.Subjects;
-using VirtPlatform.Application.Users.Interfaces.Subjects;
+using VirtPlatform.Application.Subjects.DTOs;
+using VirtPlatform.Application.Subjects.Interfaces;
 using VirtPlatform.Domain.Interfaces.Repositories.Subjects;
 
-namespace VirtPlatform.Application.Users.Services.Subjects
+namespace VirtPlatform.Application.Subjects.Services
 {
     public class SubjectService : ISubjectService
     {

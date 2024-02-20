@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VirtPlatform.Application.Users.DTOs.Forums
+namespace VirtPlatform.Application.Forums.DTOs
 {
     public class ForumDto
     {

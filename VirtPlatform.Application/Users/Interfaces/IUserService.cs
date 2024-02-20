@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Users;
+using VirtPlatform.Application.Users.DTOs;
 
-namespace VirtPlatform.Application.Users.Interfaces.Users
+namespace VirtPlatform.Application.Users.Interfaces
 {
     public interface IUserService : IService<User, UserDto>
     {

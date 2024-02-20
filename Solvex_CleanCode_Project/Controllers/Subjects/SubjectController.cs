@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VirtPlatform.Application.Users.DTOs.Subjects;
-using VirtPlatform.Application.Users.Interfaces.Subjects;
+using VirtPlatform.Application.Subjects.DTOs;
+using VirtPlatform.Application.Subjects.Interfaces;
 
 namespace Solvex_CleanCode_Project.Controllers.Subjects
 {

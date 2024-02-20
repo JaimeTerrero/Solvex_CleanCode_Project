@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Assignments;
-using VirtPlatform.Application.Users.DTOs.Subjects;
+using VirtPlatform.Application.Subjects.DTOs;
 
-namespace VirtPlatform.Application.Users.Interfaces.Subjects
+namespace VirtPlatform.Application.Subjects.Interfaces
 {
     public interface ISubjectService : IService<Subject, SubjectDto>
     {

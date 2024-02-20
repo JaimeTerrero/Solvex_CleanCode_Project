@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VirtPlatform.Application.Users.Interfaces
+namespace VirtPlatform.Application
 {
     public interface IService<Entity, EntityDto> where Entity : class
         where EntityDto : class

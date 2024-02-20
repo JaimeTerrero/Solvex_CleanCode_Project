@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VirtPlatform.Application.Users.DTOs.Users;
-using VirtPlatform.Application.Users.Interfaces.Users;
+using VirtPlatform.Application.Users.DTOs;
+using VirtPlatform.Application.Users.Interfaces;
 using VirtPlatform.Domain.Interfaces.Repositories.Users;
 using VirtPlatform.Domain.Utils;
 
-namespace VirtPlatform.Application.Users.Services.Users
+namespace VirtPlatform.Application.Users.Services
 {
     public class UserService : IUserService
     {
